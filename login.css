@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('loginBGimg6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.login-container {
+    background: rgba(187, 2, 254, 0.178); 
+    backdrop-filter: blur(10px);          
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(6, 244, 10, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #0a0101;
+}
+
+.input-field {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-field label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: hsl(315, 89%, 7%);
+}
+
+.input-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #4809f6;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #07e8f4;
+    color: rgb(19, 3, 247);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #c3f806;
+}
